@@ -1,0 +1,21 @@
+public class Main {
+    public static void main(String[] args) {
+        char harf ='3';
+
+        switch(harf)
+        {
+            case'A':
+            case'I':
+            case'O':
+            case'U':
+                System.out.println("Kalın sesli harf");
+            default:
+                System.out.println("İnce sesli harf");
+
+
+
+
+        }
+
+    }
+}
